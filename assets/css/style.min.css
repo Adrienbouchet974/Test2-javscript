@@ -1,0 +1,35 @@
+nav {
+  height: 50px;
+  background-color: orange;
+  color: grey;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+nav li {
+  padding: 10px;
+}
+nav li a {
+  text-decoration: none;
+}
+
+body {
+  background: grey;
+  color: black;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background: red;
+  transition: 0.3s cubic-bezier(0.17, 0.67, 0.64, 1.39);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,17 @@
+nav {
+    height: 50px;
+    background-color: $color_pink;
+    color: $color_text;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    li {
+        padding: 10px;
+        a{ 
+        text-decoration: none;
+        }
+    }
+}
